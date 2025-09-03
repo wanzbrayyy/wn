@@ -5,11 +5,13 @@ from google import genai
 # STRING_SESSION Telegram kamu
 STRING_SESSION = "1BVtsOJYBu6Q_ffxWIB4ryDewg6rZ7BREPxvd54Cvu6j2naSg7TZ4C2Vc-UDTCH3_fiES3j4rzGFhD5Ka4cbkjHwfwOf9EkXqV8QAemlv1PdqaczbrEcPuBdgD2rIhURwB1LChuug5TQ8jJFvwKt4cie3UWLnfz2dMJjwh5ex3y60arwIkIumSTXYx_W-nJ7KekRPn3dKZ6nUQlYAUukebN6eeEYQYawjdbkPEEoi0YAXmQCz-VyHfpsmzTd9HmRB3hRWY3sGcWPPof5RmgUY9INv3ckdSgf_RR9S-GuWtEuZSte-1RPtuBHYURycWxXEtJgA7KQic0o77h_uf0i-cMfZfIEdVjQ="
 
+
+gemini_client = genai.Client(api_key="AIzaSyCvB4NysYtrwxpFUaGb4q_t2ofUV7E1LfU")
 # API Key Gemini AI
-os.environ["GENAI_API_KEY"] = "AIzaSyCvB4NysYtrwxpFUaGb4q_t2ofUV7E1LfU"
+#os.environ["GENAI_API_KEY"] = "AIzaSyCvB4NysYtrwxpFUaGb4q_t2ofUV7E1LfU"
 
 # Inisialisasi client Gemini
-gemini_client = genai.Client()
+#gemini_client = genai.Client()
 
 # Telegram API ID & Hash (ganti dengan milikmu dari my.telegram.org)
 api_id = 25054644
